@@ -1,0 +1,4 @@
+﻿Connor, Manager, 161
+Saleh, Manager, 160
+Jim, Admin, 140
+Tina, Admin, 165
