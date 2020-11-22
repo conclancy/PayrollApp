@@ -37,7 +37,6 @@ namespace PayrollCoreApp
         // Method for calculating basic and total pay
         public virtual void CalculatePay()
         {
-            Console.WriteLine("\nCalculating Pay...");
             BasicPay = hWorked * hourlyRate;
             TotalPay = BasicPay;
         }
