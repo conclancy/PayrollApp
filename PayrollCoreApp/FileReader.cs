@@ -28,7 +28,6 @@ namespace PayrollCoreApp
                                     HoursWorked = Convert.ToInt32(employee[2])
                                 };
                                 myStaff.Add(m);
-                                Console.WriteLine($"New Manager {employee[0]} added to myStaff");
                                 break;
 
                             case "Admin":
@@ -37,7 +36,6 @@ namespace PayrollCoreApp
                                     HoursWorked = Convert.ToInt32(employee[2])
                                 };
                                 myStaff.Add(a);
-                                Console.WriteLine($"New Admin {employee[0]} added to myStaff");
                                 break;
 
                             default:
