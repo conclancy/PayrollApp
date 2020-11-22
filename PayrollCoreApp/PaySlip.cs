@@ -62,10 +62,20 @@ namespace PayrollCoreApp
             }
         }
 
+        // Constructor for Payslip
         public PaySlip(int month, int year)
         {
             Month = month;
             Year = year;
+        }
+
+        // Method for payslip creation
+        public void GeneratePaySlip(Staff staff)
+        {
+            Console.WriteLine($"{(MonthOfYear)Month} {Year} {staff.NameOfStaff}");
+            Console.WriteLine("====================");
+            Console.WriteLine(staff.ToString());
+            Console.WriteLine("====================");
         }
     }
 }
